@@ -1,0 +1,21 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 38px;
+  font-weight: 400;
+
+  color-scheme: dark light;
+  color: #3b3b3b;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+*{
+  padding: 0;
+  margin: 0;
+  transition-duration: 0;
+}

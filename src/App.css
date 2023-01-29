@@ -1,0 +1,126 @@
+.resize-animation-stopper * {
+  animation: none !important;
+  transition: none !important;
+}
+
+body{
+  overflow: hidden;
+}
+.app{
+  width: 100vw;
+  padding: 0;
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+.small{
+  font-size: 16px !important;
+  color: #646464;
+}
+.medium{
+  font-size: 24px !important;
+}
+.large{
+  font-size: 36px !important;
+  color: #3b3b3b;
+  font-weight: 100;
+}
+.xlarge{
+  font-size: 68px !important;
+  color: #3b3b3b;
+  font-weight: 100;
+}
+.padding{
+  margin-top: 300px;
+  padding: 0 55px;
+}
+.image{
+  position: absolute;
+  border-radius: 25px;
+}
+.welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 320px;
+  width: fit-content;
+}
+.welcome-head{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 140px;
+  width: 100%;
+  text-align: left;
+}
+.welcome-statement{
+  min-height: max-content;
+  width: 640px;
+}
+.divider{
+  align-self: flex-start;
+  width: 20%;
+  height: 3px;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(233,233,233,1) 50%);
+}
+.image-container{
+  z-index: -1;
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  border-radius: 75px;
+  background-color: #51b5ff !important;
+  right: -180px !important;
+  top: -395px !important;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px -19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transform: rotate(130deg);
+}
+.revert{
+  position: fixed;
+  margin-top: -310px;
+  border-radius: 15px;
+  transform: rotate(180deg);
+}
+@keyframes rotate{
+  0%{
+    transform: rotate(18deg);
+  }
+  10%{
+    transform: rotate(18deg);
+  }
+  20%{
+    transform: rotate(18deg);
+  }
+  30%{
+    transform: rotate(18deg);
+  }
+  40%{
+    transform: rotate(18deg);
+  }
+  50%{
+    transform: rotate(18deg);
+  }
+  60%{
+    transform: rotate(18deg);
+  }
+  70%{
+    transform: rotate(18deg);
+  }
+  80%{
+    transform: rotate(18deg);
+  }
+  90%{
+    transform: rotate(18deg);
+  }
+  100%{
+    transform: rotate(18deg);
+  }
+}
+@media screen and (min-width: 1200px){
+  .padding{
+    padding: 0 100px;
+  }
+}
